@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 04/15/20 13:17:43
+=======
+﻿Log file open, 04/15/20 12:10:53
+>>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +13,11 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: TestingLandscape
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.077097
+=======
+LogStats: Stats thread started at 0.155515
+>>>>>>> master
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,8 +133,13 @@ LogInit: Build: ++UE4+Release-4.24-CL-11100242
 LogInit: Engine Version: 4.24.2-11100242+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1070 Ti
 LogInit: Compiled (64-bit): Jan 24 2020 02:05:53
+=======
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+>>>>>>> master
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
@@ -163,6 +176,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.04.15-03.17.43:528][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.04.15-03.17.43:528][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.04.15-03.17.43:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/User/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
@@ -1237,3 +1251,834 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.15-03.21.08:047][802]LogD3D11RHI: CleanupD3DDevice
 [2020.04.15-03.21.08:062][802]LogExit: Exiting.
 [2020.04.15-03.21.08:071][802]Log file closed, 04/15/20 13:21:08
+=======
+[2020.04.15-02.10.54:578][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.15-02.10.54:578][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.15-02.10.54:579][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.15-02.10.54:580][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:580][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:586][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:586][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.15-02.10.54:586][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.15-02.10.54:586][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:586][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.15-02.10.54:586][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:586][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.15-02.10.54:586][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.15-02.10.54:587][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.15-02.10.54:588][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.15-02.10.54:589][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.15-02.10.54:590][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.15-02.10.54:601][  0]LogHAL: Display: Platform has ~ 16 GB [17096007680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.15-02.10.54:601][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.15-02.10.54:601][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:601][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.15-02.10.54:601][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.15-02.10.54:601][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:601][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.15-02.10.54:602][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Scalability.ini]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.15-02.10.54:603][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.15-02.10.54:609][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.15-02.10.54:609][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.15-02.10.54:609][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/John/Documents/GitHub/Spirit/Saved/Config/Windows/Engine.ini]
+[2020.04.15-02.10.54:610][  0]LogInit: Computer: DESKTOP-FCSAO1V
+[2020.04.15-02.10.54:610][  0]LogInit: User: John
+[2020.04.15-02.10.54:610][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.04.15-02.10.54:610][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.15-02.10.54:611][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.15-02.10.54:611][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.15-02.10.54:611][  0]LogMemory: Process Physical Memory: 106.98 MB used, 106.98 MB peak
+[2020.04.15-02.10.54:611][  0]LogMemory: Process Virtual Memory: 102.41 MB used, 102.41 MB peak
+[2020.04.15-02.10.54:611][  0]LogMemory: Physical Memory: 3222.00 MB used,  13082.02 MB free, 16304.02 MB total
+[2020.04.15-02.10.54:611][  0]LogMemory: Virtual Memory: 5179.30 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.04.15-02.10.54:617][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.15-02.10.54:911][  0]LogInit: Using OS detected language (en-US).
+[2020.04.15-02.10.54:911][  0]LogInit: Using OS detected locale (en-AU).
+[2020.04.15-02.10.54:913][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.15-02.10.55:252][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.15-02.10.55:347][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.15-02.10.55:347][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.15-02.10.58:271][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.15-02.10.58:271][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.15-02.10.58:271][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.15-02.10.58:271][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.15-02.10.58:360][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.04.15-02.10.58:360][  0]LogD3D11RHI:       6052/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.15-02.10.58:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.15-02.10.58:364][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.15-02.10.58:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.15-02.10.58:372][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.15-02.10.58:372][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.15-02.10.58:372][  0]LogWindows: EnumDisplayDevices:
+[2020.04.15-02.10.58:372][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.04.15-02.10.58:373][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.15-02.10.58:373][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.15-02.10.58:373][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.15-02.10.58:373][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.15-02.10.58:373][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.04.15-02.10.58:373][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.04.15-02.10.58:373][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.04.15-02.10.58:373][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.15-02.10.58:437][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.15-02.10.58:437][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.15-02.10.58:519][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.15-02.10.58:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.15-02.10.58:964][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.15-02.10.58:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.15-02.10.59:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.15-02.10.59:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.15-02.10.59:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.15-02.10.59:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.15-02.10.59:085][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.15-02.10.59:096][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.15-02.10.59:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.15-02.10.59:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.15-02.10.59:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.15-02.10.59:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.15-02.10.59:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.15-02.10.59:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.15-02.10.59:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.15-02.10.59:204][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.15-02.10.59:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.15-02.10.59:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.15-02.10.59:226][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.15-02.10.59:236][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.15-02.10.59:352][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/John/Documents/GitHub/Spirit/Intermediate/Shaders/WorkingDirectory/10164/).
+[2020.04.15-02.10.59:352][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/John/AppData/Local/Temp/UnrealShaderWorkingDir/93EA68594B804D37CD00B7AB24FEAF6F/'.
+[2020.04.15-02.10.59:354][  0]LogXGEController: Cleaning working directory: C:/Users/John/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.15-02.10.59:354][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.15-02.10.59:355][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.15-02.10.59:355][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.15-02.11.02:494][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.15-02.11.02:757][  0]LogDerivedDataCache: Loaded boot cache 0.26s 78MB C:/Users/John/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.15-02.11.02:757][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/John/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.15-02.11.02:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/John/Documents/GitHub/Spirit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.15-02.11.02:757][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.15-02.11.02:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/John/Documents/GitHub/Spirit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.15-02.11.02:757][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.15-02.11.02:780][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.15-02.11.02:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.15-02.11.02:780][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.15-02.11.02:782][  0]LogDerivedDataCache: Using Local data cache path C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.15-02.11.02:782][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.15-02.11.02:782][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.15-02.11.02:815][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.15-02.11.02:825][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.15-02.11.02:852][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.15-02.11.03:149][  0]LogAssetRegistry: FAssetRegistry took 0.0084 seconds to start up
+[2020.04.15-02.11.03:699][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.15-02.11.04:079][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.15-02.11.04:079][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.15-02.11.04:079][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.15-02.11.04:079][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.15-02.11.04:079][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.15-02.11.04:140][  0]LogNetVersion: TestingLandscape 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3817571683)
+[2020.04.15-02.11.08:164][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.059567 seconds
+[2020.04.15-02.11.08:174][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.15-02.11.08:175][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.15-02.11.08:175][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.15-02.11.09:301][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.15-02.11.09:308][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.15-02.11.09:440][  0]SourceControl: Source control is disabled
+[2020.04.15-02.11.09:441][  0]SourceControl: Source control is disabled
+[2020.04.15-02.11.09:450][  0]SourceControl: Source control is disabled
+[2020.04.15-02.11.09:456][  0]SourceControl: Source control is disabled
+[2020.04.15-02.11.09:460][  0]SourceControl: Source control is disabled
+[2020.04.15-02.11.09:710][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.15-02.11.09:732][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.15-02.11.09:732][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.15-02.11.09:942][  0]LogOcInput: OculusInput pre-init called
+[2020.04.15-02.11.09:959][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.15-02.11.09:959][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.15-02.11.10:125][  0]LogEngine: Initializing Engine...
+[2020.04.15-02.11.10:127][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.15-02.11.10:130][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.04.15-02.11.10:751][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.15-02.11.10:785][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-02.11.10:795][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-02.11.10:795][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-02.11.10:796][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-02.11.10:796][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-02.11.10:819][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: Name: MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-02.11.10:820][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-02.11.10:896][  0]LogAudioMixer: Display: Using Audio Device MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.11.10:899][  0]LogInit: FAudioDevice initialized.
+[2020.04.15-02.11.10:900][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.15-02.11.11:007][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/John/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.15-02.11.11:017][  0]LogInit: Texture streaming: Enabled
+[2020.04.15-02.11.11:049][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.15-02.11.11:049][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.15-02.11.11:051][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.15-02.11.11:386][  0]LogInit: Transaction tracking system initialized
+[2020.04.15-02.11.11:428][  0]BlueprintLog: New page: Editor Load
+[2020.04.15-02.11.11:553][  0]LocalizationService: Localization service is disabled
+[2020.04.15-02.11.12:279][  0]LogFileCache: Scanning file cache for directory 'C:/Users/John/Documents/GitHub/Spirit/Content/' took 0.01s
+[2020.04.15-02.11.12:279][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.15-02.11.12:279][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.15-02.11.13:447][  0]SourceControl: Source control is disabled
+[2020.04.15-02.11.13:448][  0]Cmd: MAP LOAD FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.15-02.11.13:449][  0]LightingResults: New page: Lighting Build
+[2020.04.15-02.11.13:454][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-02.11.13:454][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.11.13:455][  0]MapCheck: New page: Map Check
+[2020.04.15-02.11.13:455][  0]LightingResults: New page: Lighting Build
+[2020.04.15-02.11.13:505][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.04.15-02.11.14:567][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Crouch_Idle_01.Crouch_Idle_01
+[2020.04.15-02.11.14:568][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Crouch_Idle_01.Crouch_Idle_01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:573][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Walking.Walking
+[2020.04.15-02.11.14:573][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Walking.Walking) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:574][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Right_Strafe_Walking.Right_Strafe_Walking
+[2020.04.15-02.11.14:574][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Right_Strafe_Walking.Right_Strafe_Walking) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:576][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Left_Strafe_Walk.Left_Strafe_Walk
+[2020.04.15-02.11.14:576][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Left_Strafe_Walk.Left_Strafe_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:582][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Idle.Idle
+[2020.04.15-02.11.14:582][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Idle.Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:583][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Running.Running
+[2020.04.15-02.11.14:583][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Running.Running) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:592][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Fast_Run.Fast_Run
+[2020.04.15-02.11.14:592][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Fast_Run.Fast_Run) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:689][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Models/Animations/Crouched_Walking.Crouched_Walking
+[2020.04.15-02.11.14:689][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Models/Animations/Crouched_Walking.Crouched_Walking) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.04.15-02.11.14:692][  0]LogAIModule: Creating AISystem for world TestingLandscape
+[2020.04.15-02.11.15:574][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.15-02.11.15:633][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.04.15-02.11.15:633][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.15-02.11.15:634][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.481ms to complete.
+[2020.04.15-02.11.15:634][  0]LogFileHelpers: Loading map 'TestingLandscape' took 2.186
+[2020.04.15-02.11.15:863][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.11.15:872][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.11.15:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.11.15:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.11.15:908][  0]LogCollectionManager: Loaded 0 collections in 0.002282 seconds
+[2020.04.15-02.11.15:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/John/Documents/GitHub/Spirit/Saved/Collections/' took 0.00s
+[2020.04.15-02.11.15:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/John/Documents/GitHub/Spirit/Content/Developers/John/Collections/' took 0.00s
+[2020.04.15-02.11.15:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/John/Documents/GitHub/Spirit/Content/Collections/' took 0.00s
+[2020.04.15-02.11.15:940][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3015 classes and 717 folders.
+[2020.04.15-02.11.15:948][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.15-02.11.16:322][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.15-02.11.16:334][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.04.15-02.11.16:600][  0]LogSlate: Took 0.014177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.15-02.11.16:612][  0]LogSlate: Took 0.006599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.15-02.11.16:623][  0]LogSlate: Took 0.005618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.15-02.11.16:792][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2020.04.15-02.11.16:916][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.15-02.11.16:916][  0]LogLoad: (Engine Initialization) Total time: 29.72 seconds
+[2020.04.15-02.11.16:916][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.15-02.11.16:995][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.15-02.11.17:061][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/John/Documents/GitHub/Spirit/Content/' took 0.13s
+[2020.04.15-02.11.18:136][ 18]LogAssetRegistry: Asset discovery search completed in 14.9888 seconds
+[2020.04.15-02.11.18:138][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-13-31-31.TestingLandscape
+[2020.04.15-02.11.18:141][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-13-31-31.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-13-42-08.TestingLandscape
+[2020.04.15-02.11.18:144][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-13-42-08.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-14-27-00.TestingLandscape
+[2020.04.15-02.11.18:146][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-14-27-00.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-14-41-54.TestingLandscape
+[2020.04.15-02.11.18:149][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-14-41-54.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-14-57-28.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-14-57-28.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-17-05-09.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-17-05-09.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-17-13-59.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-17-13-59.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-17-48-41.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-17-48-41.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-18-12-30.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-18-12-30.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-18-24-09.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-18-24-09.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-18-29-29.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-18-29-29.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape
+[2020.04.15-02.11.18:151][ 18]LogAssetManager: Warning: Found Duplicate PrimaryAssetID Map:/Game/Maps/TestingLandscape, this must be resolved before saving. Path /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape is replacing path /Game/Maps/TestingLandscape_2020-04-13-19-13-08.TestingLandscape
+[2020.04.15-02.11.18:154][ 18]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2020.04.15-02.11.20:141][ 24]LogSlate: Took 0.005978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.15-02.12.13:106][ 88]LogUObjectGlobals: Warning: Guid referenced by Landscape /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1 is already used by Landscape /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:106][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_0 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:106][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_1 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_10 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_11 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_12 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_13 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_14 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_15 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_16 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_17 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_18 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_19 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:107][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_2 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_20 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_21 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_22 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_23 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_24 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_25 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_26 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_27 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_27, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_28 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_29 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:108][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_3 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_30 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_31 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_32 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_33 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_33, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_34 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_35 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_35, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_36 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_36, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_37 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_37, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_38 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_38, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_39 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_39, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:109][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_4 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_40 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_40, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_41 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_42 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_42, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_43 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_43, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_44 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_44, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_45 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_45, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_46 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_46, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_47 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_48 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_48, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_49 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_49, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:110][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_5 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_50 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_50, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_51 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_51, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_52 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_53 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_53, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_54 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_54, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_55 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_55, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_56 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_56, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_57 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_57, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_58 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_58, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:111][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_59 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_59, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_6 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_60 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_60, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_61 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_61, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_62 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_62, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_63 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_63, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_7 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_8 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:112][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_9 is already used by LandscapeComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_100 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_100, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_106 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_106, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_107 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_107, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_108 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_108, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_126 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_126, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_127 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_127, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_71 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_71, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:118][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_82 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_82, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_83 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_83, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_84 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_84, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_90 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_90, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_91 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_91, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_92 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_92, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_98 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_98, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:119][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_99 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeHeightfieldCollisionComponent_99, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:121][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_0 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:121][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_1 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:121][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_10 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:121][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_11 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:121][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_12 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:121][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_13 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_14 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_15 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_16 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_17 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_18 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_19 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_2 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_20 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_21 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_22 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_23 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_24 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_25 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:122][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_26 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_27 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_27, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_28 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_29 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_3 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_30 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_31 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_32 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_33 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_33, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_34 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_35 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_35, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_36 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_36, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_37 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_37, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_38 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_38, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_39 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_39, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:123][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_4 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_40 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_40, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_41 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_42 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_42, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_43 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_43, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_44 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_44, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_45 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_45, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_46 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_46, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_47 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_48 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_48, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_5 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_6 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_7 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_8 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:124][ 88]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_9 is already used by LandscapeMeshCollisionComponent /Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.Landscape_1.LandscapeMeshCollisionComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2020.04.15-02.12.13:171][ 88]LogAIModule: Creating AISystem for world TestingLandscape_2020-04-13-18-44-50
+[2020.04.15-02.12.13:176][ 88]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Maps/TestingLandscape_2020-04-13-18-44-50.TestingLandscape'
+[2020.04.15-02.12.44:902][193]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Humanoid/CH_Human.CH_Human
+[2020.04.15-02.12.45:137][193]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.04.15-02.12.46:297][193]LogSlate: Took 0.006042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.15-02.12.46:502][194]LogSlate: Took 0.010373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.15-02.18.42:053][ 18]BlueprintLog: New page: Compile CH_Human
+[2020.04.15-02.18.42:457][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.04.15-02.18.43:002][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Humanoid/CH_Human" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Character/Humanoid/CH_Human.uasset" SILENT=true
+[2020.04.15-02.18.43:130][ 66]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/CH_HumanD00E77B5404F1900A1DEBA9DBB755F88.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Character/Humanoid/CH_Human.uasset'
+[2020.04.15-02.18.43:149][ 66]AssetCheck: New page: Asset Save: CH_Human
+[2020.04.15-02.18.43:150][ 66]LogContentValidation: Display: Validating Blueprint /Game/Character/Humanoid/CH_Human.CH_Human
+[2020.04.15-02.18.47:232][526]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-02.18.47:262][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.18.47:262][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-02.18.47:263][526]PIE: New page: PIE session: TestingLandscape (15 Apr 2020, 10:18:47 pm)
+[2020.04.15-02.18.47:265][526]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.15-02.18.47:266][526]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.15-02.18.47:267][526]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.18.47:351][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083995s)
+[2020.04.15-02.18.47:352][526]LogAIModule: Creating AISystem for world TestingLandscape
+[2020.04.15-02.18.47:352][526]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2020.04.15-02.18.47:352][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingLandscape.TestingLandscape to /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape (0.085507s)
+[2020.04.15-02.18.47:408][526]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.04.15-02.18.47:409][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-02.18.47:409][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-02.18.47:409][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-02.18.47:409][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-02.18.47:409][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-02.18.47:409][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-02.18.47:410][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-02.18.47:410][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-02.18.47:410][526]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-02.18.47:410][526]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Name: MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: Channel Order:
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-02.18.47:425][526]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-02.18.47:437][526]LogAudioMixer: Display: Using Audio Device MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.18.47:440][526]LogInit: FAudioDevice initialized.
+[2020.04.15-02.18.47:452][526]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.15-02.18.47:456][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape up for play (max tick rate 0) at 2020.04.15-12.18.47
+[2020.04.15-02.18.47:457][526]LogWorld: Bringing up level for play took: 0.002624
+[2020.04.15-02.18.47:457][526]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.04.15-02.18.47:471][526]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.04.15-02.18.47:474][526]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingLandscape -0.615
+[2020.04.15-02.18.47:475][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.18.54:068][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.18.54:078][250]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.15-02.18.54:098][250]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.15-02.18.54:098][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.18.54:098][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.18.54:098][250]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.18.54:099][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.18.54:099][250]LogWorld: UWorld::CleanupWorld for TestingLandscape, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-02.18.54:100][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.18.54:104][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-02.18.54:105][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.18.54:111][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.18.54:167][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.18.54:170][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.18.54:200][250]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.04.15-02.18.54:234][251]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.04.15-02.20.35:676][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.20.40:858][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.21.20:099][996]Cmd: TRANSACTION UNDO
+[2020.04.15-02.21.20:099][996]LogEditorTransaction: Undo Move Actors
+[2020.04.15-02.21.29:102][982]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.21.31:073][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.21.51:761][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.21.54:587][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.22.07:150][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingLandscape" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.15-02.22.07:208][208]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.04.15-02.22.07:740][208]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape73D7849F461579B5B447D4923C16AC5F.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap'
+[2020.04.15-02.22.07:860][208]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape_2020-04-13-18-4C4F6524E414ECE65CDD14EA9BD0C52AF.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.uasset'
+[2020.04.15-02.22.07:881][208]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.15-02.22.07:881][208]LogContentValidation: Display: Validating World /Game/Maps/TestingLandscape.TestingLandscape
+[2020.04.15-02.22.07:881][208]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.TestingLandscape_2020-04-13-18-44-50_BuiltData
+[2020.04.15-02.22.10:681][508]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-02.22.10:710][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.10:710][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-02.22.10:710][508]PIE: New page: PIE session: TestingLandscape (15 Apr 2020, 10:22:10 pm)
+[2020.04.15-02.22.10:710][508]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.22.10:782][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071499s)
+[2020.04.15-02.22.10:783][508]LogAIModule: Creating AISystem for world TestingLandscape
+[2020.04.15-02.22.10:783][508]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2020.04.15-02.22.10:783][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingLandscape.TestingLandscape to /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape (0.072857s)
+[2020.04.15-02.22.10:836][508]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-02.22.10:838][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-02.22.10:838][508]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Name: MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Channel Order:
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-02.22.10:864][508]LogAudioMixer: Display: Using Audio Device MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.22.10:866][508]LogInit: FAudioDevice initialized.
+[2020.04.15-02.22.10:878][508]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.15-02.22.10:880][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape up for play (max tick rate 0) at 2020.04.15-12.22.10
+[2020.04.15-02.22.10:880][508]LogWorld: Bringing up level for play took: 0.002050
+[2020.04.15-02.22.10:881][508]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.04.15-02.22.10:884][508]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingLandscape 0.795
+[2020.04.15-02.22.10:884][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.18:202][382]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.22.18:205][382]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.15-02.22.18:225][382]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.15-02.22.18:225][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.18:225][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.22.18:225][382]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.22.18:226][382]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.22.18:226][382]LogWorld: UWorld::CleanupWorld for TestingLandscape, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-02.22.18:226][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.22.18:238][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-02.22.18:238][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.18:245][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.22.18:300][382]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.22.18:303][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.22.18:309][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.04.15-02.22.18:333][383]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.15-02.22.19:028][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.22.32:449][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.22.38:586][639]Cmd: DUPLICATE
+[2020.04.15-02.22.38:586][639]Cmd: ACTOR DUPLICATE
+[2020.04.15-02.23.01:721][233]Cmd: DUPLICATE
+[2020.04.15-02.23.01:721][233]Cmd: ACTOR DUPLICATE
+[2020.04.15-02.23.08:950][ 57]Cmd: TRANSACTION UNDO
+[2020.04.15-02.23.08:950][ 57]LogEditorTransaction: Undo Rotate Actors
+[2020.04.15-02.23.17:042][954]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.23.17:785][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.23.30:351][445]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.23.31:738][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.23.46:232][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.04.15-02.23.47:520][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.23.58:780][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.24.22:931][998]Cmd: DELETE
+[2020.04.15-02.24.22:931][998]Cmd: ACTOR DELETE
+[2020.04.15-02.24.22:935][998]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.15-02.24.22:989][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.04.15-02.24.22:991][998]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2020.04.15-02.24.23:789][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.04.15-02.24.29:146][597]Cmd: DUPLICATE
+[2020.04.15-02.24.29:146][597]Cmd: ACTOR DUPLICATE
+[2020.04.15-02.25.01:871][338]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.25.06:166][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.25.22:985][487]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.25.33:859][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingLandscape" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.15-02.25.33:912][730]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.04.15-02.25.34:440][730]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape43308B554D6FD6036C20A08CDBCEF536.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap'
+[2020.04.15-02.25.34:558][730]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape_2020-04-13-18-413B7472F4BAE94F1E3DE5C869CC4C419.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.uasset'
+[2020.04.15-02.25.34:579][730]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.15-02.25.34:579][730]LogContentValidation: Display: Validating World /Game/Maps/TestingLandscape.TestingLandscape
+[2020.04.15-02.25.34:579][730]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.TestingLandscape_2020-04-13-18-44-50_BuiltData
+[2020.04.15-02.25.35:496][812]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-02.25.35:524][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.25.35:524][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-02.25.35:525][812]PIE: New page: PIE session: TestingLandscape (15 Apr 2020, 10:25:35 pm)
+[2020.04.15-02.25.35:525][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.25.35:596][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070999s)
+[2020.04.15-02.25.35:597][812]LogAIModule: Creating AISystem for world TestingLandscape
+[2020.04.15-02.25.35:597][812]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2020.04.15-02.25.35:597][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingLandscape.TestingLandscape to /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape (0.072713s)
+[2020.04.15-02.25.35:652][812]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-02.25.35:654][812]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-02.25.35:654][812]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Name: MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Channel Order:
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-02.25.35:669][812]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-02.25.35:679][812]LogAudioMixer: Display: Using Audio Device MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.25.35:681][812]LogInit: FAudioDevice initialized.
+[2020.04.15-02.25.35:691][812]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.15-02.25.35:694][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape up for play (max tick rate 0) at 2020.04.15-12.25.35
+[2020.04.15-02.25.35:694][812]LogWorld: Bringing up level for play took: 0.002137
+[2020.04.15-02.25.35:694][812]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.04.15-02.25.35:698][812]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingLandscape -0.392
+[2020.04.15-02.25.35:698][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.26.14:791][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:791][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:791][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.26.14:791][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.26.14:791][498]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.26.14:791][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:791][498]LogWorld: UWorld::CleanupWorld for TestingLandscape, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-02.26.14:792][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.26.14:798][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-02.26.14:799][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.26.14:805][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.26.14:852][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:855][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.26.14:862][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.04.15-02.26.14:918][500]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.04.15-02.26.19:214][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingLandscape" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.15-02.26.19:266][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.04.15-02.26.19:787][990]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscapeE7B7B70645753EB325887096D64FC4C0.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap'
+[2020.04.15-02.26.19:888][990]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape_2020-04-13-18-4E6FCB390409338FF67AA1EB0B2ABBCFC.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.uasset'
+[2020.04.15-02.26.19:909][990]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.15-02.26.19:909][990]LogContentValidation: Display: Validating World /Game/Maps/TestingLandscape.TestingLandscape
+[2020.04.15-02.26.19:909][990]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.TestingLandscape_2020-04-13-18-44-50_BuiltData
+>>>>>>> master

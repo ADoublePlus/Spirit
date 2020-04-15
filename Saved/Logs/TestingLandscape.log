@@ -832,3 +832,163 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.15-02.18.54:170][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.15-02.18.54:200][250]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
 [2020.04.15-02.18.54:234][251]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.04.15-02.20.35:676][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.20.40:858][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.21.20:099][996]Cmd: TRANSACTION UNDO
+[2020.04.15-02.21.20:099][996]LogEditorTransaction: Undo Move Actors
+[2020.04.15-02.21.29:102][982]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.21.31:073][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.21.51:761][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.21.54:587][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.22.07:150][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingLandscape" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.15-02.22.07:208][208]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.04.15-02.22.07:740][208]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape73D7849F461579B5B447D4923C16AC5F.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap'
+[2020.04.15-02.22.07:860][208]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape_2020-04-13-18-4C4F6524E414ECE65CDD14EA9BD0C52AF.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.uasset'
+[2020.04.15-02.22.07:881][208]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.15-02.22.07:881][208]LogContentValidation: Display: Validating World /Game/Maps/TestingLandscape.TestingLandscape
+[2020.04.15-02.22.07:881][208]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.TestingLandscape_2020-04-13-18-44-50_BuiltData
+[2020.04.15-02.22.10:681][508]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-02.22.10:710][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.10:710][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-02.22.10:710][508]PIE: New page: PIE session: TestingLandscape (15 Apr 2020, 10:22:10 pm)
+[2020.04.15-02.22.10:710][508]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.22.10:782][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071499s)
+[2020.04.15-02.22.10:783][508]LogAIModule: Creating AISystem for world TestingLandscape
+[2020.04.15-02.22.10:783][508]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2020.04.15-02.22.10:783][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingLandscape.TestingLandscape to /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape (0.072857s)
+[2020.04.15-02.22.10:836][508]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-02.22.10:838][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-02.22.10:838][508]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-02.22.10:838][508]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Name: MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: Channel Order:
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-02.22.10:853][508]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-02.22.10:864][508]LogAudioMixer: Display: Using Audio Device MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.22.10:866][508]LogInit: FAudioDevice initialized.
+[2020.04.15-02.22.10:878][508]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.15-02.22.10:880][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape up for play (max tick rate 0) at 2020.04.15-12.22.10
+[2020.04.15-02.22.10:880][508]LogWorld: Bringing up level for play took: 0.002050
+[2020.04.15-02.22.10:881][508]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.04.15-02.22.10:884][508]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingLandscape 0.795
+[2020.04.15-02.22.10:884][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.18:202][382]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.22.18:205][382]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.15-02.22.18:225][382]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.15-02.22.18:225][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.18:225][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.22.18:225][382]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.22.18:226][382]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.22.18:226][382]LogWorld: UWorld::CleanupWorld for TestingLandscape, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-02.22.18:226][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.22.18:238][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-02.22.18:238][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.22.18:245][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.22.18:300][382]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.22.18:303][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.22.18:309][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.04.15-02.22.18:333][383]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.15-02.22.19:028][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.22.32:449][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.04.15-02.22.38:586][639]Cmd: DUPLICATE
+[2020.04.15-02.22.38:586][639]Cmd: ACTOR DUPLICATE
+[2020.04.15-02.23.01:721][233]Cmd: DUPLICATE
+[2020.04.15-02.23.01:721][233]Cmd: ACTOR DUPLICATE
+[2020.04.15-02.23.08:950][ 57]Cmd: TRANSACTION UNDO
+[2020.04.15-02.23.08:950][ 57]LogEditorTransaction: Undo Rotate Actors
+[2020.04.15-02.23.17:042][954]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.23.17:785][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.23.30:351][445]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.23.31:738][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.23.46:232][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.04.15-02.23.47:520][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.23.58:780][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.24.22:931][998]Cmd: DELETE
+[2020.04.15-02.24.22:931][998]Cmd: ACTOR DELETE
+[2020.04.15-02.24.22:935][998]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.15-02.24.22:989][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.04.15-02.24.22:991][998]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2020.04.15-02.24.23:789][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.04.15-02.24.29:146][597]Cmd: DUPLICATE
+[2020.04.15-02.24.29:146][597]Cmd: ACTOR DUPLICATE
+[2020.04.15-02.25.01:871][338]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.25.06:166][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.04.15-02.25.22:985][487]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.15-02.25.33:859][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingLandscape" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.15-02.25.33:912][730]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.04.15-02.25.34:440][730]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape43308B554D6FD6036C20A08CDBCEF536.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap'
+[2020.04.15-02.25.34:558][730]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape_2020-04-13-18-413B7472F4BAE94F1E3DE5C869CC4C419.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.uasset'
+[2020.04.15-02.25.34:579][730]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.15-02.25.34:579][730]LogContentValidation: Display: Validating World /Game/Maps/TestingLandscape.TestingLandscape
+[2020.04.15-02.25.34:579][730]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.TestingLandscape_2020-04-13-18-44-50_BuiltData
+[2020.04.15-02.25.35:496][812]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.15-02.25.35:524][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.25.35:524][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.15-02.25.35:525][812]PIE: New page: PIE session: TestingLandscape (15 Apr 2020, 10:25:35 pm)
+[2020.04.15-02.25.35:525][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.25.35:596][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070999s)
+[2020.04.15-02.25.35:597][812]LogAIModule: Creating AISystem for world TestingLandscape
+[2020.04.15-02.25.35:597][812]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2020.04.15-02.25.35:597][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingLandscape.TestingLandscape to /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape (0.072713s)
+[2020.04.15-02.25.35:652][812]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.15-02.25.35:654][812]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.15-02.25.35:654][812]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.15-02.25.35:654][812]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Name: MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Is Default: Yes
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: Channel Order:
+[2020.04.15-02.25.35:668][812]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.15-02.25.35:669][812]LogAudioMixer: Display: 1: FrontRight
+[2020.04.15-02.25.35:679][812]LogAudioMixer: Display: Using Audio Device MSI MAG271CQR (2- NVIDIA High Definition Audio)
+[2020.04.15-02.25.35:681][812]LogInit: FAudioDevice initialized.
+[2020.04.15-02.25.35:691][812]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.04.15-02.25.35:694][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingLandscape.TestingLandscape up for play (max tick rate 0) at 2020.04.15-12.25.35
+[2020.04.15-02.25.35:694][812]LogWorld: Bringing up level for play took: 0.002137
+[2020.04.15-02.25.35:694][812]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.04.15-02.25.35:698][812]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingLandscape -0.392
+[2020.04.15-02.25.35:698][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.26.14:791][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:791][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:791][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.26.14:791][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.26.14:791][498]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestingLandscape
+[2020.04.15-02.26.14:791][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:791][498]LogWorld: UWorld::CleanupWorld for TestingLandscape, bSessionEnded=true, bCleanupResources=true
+[2020.04.15-02.26.14:792][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.26.14:798][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.15-02.26.14:799][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape' with GeneratedClass '/Game/Maps/TestingLandscape.TestingLandscape_C' with ClassGeneratedBy '/Game/Maps/TestingLandscape.TestingLandscape:PersistentLevel.TestingLandscape'
+[2020.04.15-02.26.14:805][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.15-02.26.14:852][498]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.15-02.26.14:855][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.15-02.26.14:862][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.04.15-02.26.14:918][500]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.04.15-02.26.19:214][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingLandscape" FILE="../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.15-02.26.19:266][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.04.15-02.26.19:787][990]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscapeE7B7B70645753EB325887096D64FC4C0.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape.umap'
+[2020.04.15-02.26.19:888][990]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/Spirit/Saved/TestingLandscape_2020-04-13-18-4E6FCB390409338FF67AA1EB0B2ABBCFC.tmp' to '../../../../../../Users/John/Documents/GitHub/Spirit/Content/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.uasset'
+[2020.04.15-02.26.19:909][990]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.15-02.26.19:909][990]LogContentValidation: Display: Validating World /Game/Maps/TestingLandscape.TestingLandscape
+[2020.04.15-02.26.19:909][990]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestingLandscape_2020-04-13-18-44-50_BuiltData.TestingLandscape_2020-04-13-18-44-50_BuiltData
